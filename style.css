@@ -1,0 +1,6 @@
+.jakala{
+    display:none;
+}
+.jakala.active{
+    display:block;
+}
