@@ -17,8 +17,13 @@ li{
     margin:0;
     padding: .5rem 3rem;
     transition: background-color 1s ease-in-out;
+    cursor:pointer;
 }
 li:hover{
+    background-color:rgba(230, 212, 161, 0.7);
+    color:rgb(118, 175, 114);
+}
+.tab.active{
     background-color:rgba(230, 212, 161, 0.7);
     color:rgb(118, 175, 114);
 }
@@ -31,3 +36,4 @@ li:hover{
 .title{
     text-align: center;
 }
+
